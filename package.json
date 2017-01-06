@@ -1,18 +1,27 @@
 {
   "name": "react-ratchet-components",
   "version": "1.0.0",
-  "private": true,
   "description": "react-ratchet-components, source from https://github.com/lzcmaro/react-ratchet",
   "main": "lib/index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigebeyond/react-ratchet-components.git"
   },
   "keywords": [
     "react",
     "react-ratchet",
     "react-ratchet-components"
   ],
-  "author": "shigebeyond",
+  "author": {
+    "name": "shigebeyond"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shigebeyond/react-ratchet-components/issues"
+  },
   "peerDependencies": {
     "react": ">=0.14.3",
     "react-dom": ">=0.14.3"
