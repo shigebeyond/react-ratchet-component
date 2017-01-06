@@ -1,10 +1,33 @@
-# react-ratchet
-本项目基于react，封装了ratchet的组件。项目构建参考了react-bootstrap。
+# react-ratchet-componnent
+本项目基于react，封装了ratchet的组件。直接使用了另外的项目[react-ratchet|https://github.com/lzcmaro/react-ratchet]的代码
 
 ##React v0.1.4 support
 
 ##local setup
 
-* Install `cd react-ratchet & npm install`
-* Run the docs site in development mode with `npm run docs`
-* Build with `npm run build`
+* install
+
+`npm install react-ratchet-componnent`
+
+* use
+
+有以下的组件： Badge, Button, Card, Fade, Form, FormButton, Select, ActionSheet, Scroll, Icon, Input, Link, List, Media, Modal, NavBar, NavButton, NavPopover, Page, Portal, SegmentedControl, Slider, SliderItem, TabBar, Toggle, Transition
+
+```
+var {Badge} = require('react-ratchet-componnent');
+var badgeInstance = (
+  <div>
+      <Badge>1</Badge>
+      <Badge ratStyle="primary">2</Badge>
+      <Badge ratStyle="positive">3</Badge>
+      <Badge ratStyle="negative">4</Badge>
+      
+      <Badge inverted>1</Badge>
+      <Badge ratStyle="primary" inverted>2</Badge>
+      <Badge ratStyle="positive" inverted>3</Badge>
+      <Badge ratStyle="negative" inverted>4</Badge>
+  </div>
+);
+
+ReactDOM.render(badgeInstance, mountNode);
+```
