@@ -1,5 +1,5 @@
 # react-ratchet-componnent
-本项目基于react，封装了ratchet的组件。直接使用了另外的项目[react-ratchet|https://github.com/lzcmaro/react-ratchet]的代码
+本项目基于react，封装了ratchet的组件。直接使用了另外的项目[react-ratchet](https://github.com/lzcmaro/react-ratchet)的代码
 
 ##React v0.1.4 support
 
