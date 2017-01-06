@@ -13,6 +13,8 @@
 
 有以下的组件： Badge, Button, Card, Fade, Form, FormButton, Select, ActionSheet, Scroll, Icon, Input, Link, List, Media, Modal, NavBar, NavButton, NavPopover, Page, Portal, SegmentedControl, Slider, SliderItem, TabBar, Toggle, Transition
 
+例子如下：
+
 ```
 var {Badge} = require('react-ratchet-componnent');
 var badgeInstance = (
