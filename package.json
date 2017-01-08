@@ -1,6 +1,6 @@
 {
   "name": "react-ratchet-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "react-ratchet-components, source from https://github.com/lzcmaro/react-ratchet",
   "main": "lib/index.js",
   "scripts": {
