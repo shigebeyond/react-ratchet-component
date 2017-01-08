@@ -1,10 +1,11 @@
 {
   "name": "react-ratchet-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "react-ratchet-components, source from https://github.com/lzcmaro/react-ratchet",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "react-dom": ">=0.14.3"
   },
   "dependencies": {
+    "babel-preset-stage-1": "^6.16.0",
     "classnames": "^2.2.1",
     "dom-helpers": "^2.4.0",
     "react-prop-types": "^0.3.0",
@@ -42,6 +44,8 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
     "brfs": "^1.4.1",
     "child-process-promise": "^1.1.0",
     "colors": "^1.1.2",
